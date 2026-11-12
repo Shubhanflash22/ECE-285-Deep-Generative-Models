@@ -1,0 +1,55 @@
+device cuda; 81444 images of 128x128; 636 steps/epoch
+G params 3.84M, D params 6.96M
+resumed from sweep_gan3/bce_sn_da/ckpt.pt: continuing at epoch 11/60
+epoch  11/60  lossD 1.383  lossG 0.704  D(real) +0.01  D(fake) -0.01  [17.0 min]
+epoch  12/60  lossD 1.380  lossG 0.711  D(real) +0.02  D(fake) -0.01  [17.7 min]
+epoch  13/60  lossD 1.380  lossG 0.710  D(real) +0.02  D(fake) -0.01  [18.5 min]
+epoch  14/60  lossD 1.385  lossG 0.700  D(real) +0.00  D(fake) -0.00  [19.2 min]
+epoch  15/60  lossD 1.381  lossG 0.710  D(real) +0.01  D(fake) -0.01  [19.9 min]
+epoch  16/60  lossD 1.384  lossG 0.702  D(real) +0.00  D(fake) -0.01  [20.7 min]
+epoch  17/60  lossD 1.382  lossG 0.704  D(real) +0.01  D(fake) -0.01  [21.4 min]
+epoch  18/60  lossD 1.378  lossG 0.719  D(real) +0.02  D(fake) -0.02  [22.2 min]
+epoch  19/60  lossD 1.378  lossG 0.713  D(real) +0.02  D(fake) -0.02  [22.9 min]
+epoch  20/60  lossD 1.378  lossG 0.717  D(real) +0.02  D(fake) -0.02  [23.7 min]  quick(2000) FIDpool 293.1  FIDblog 0.2409  IS 2.43
+epoch  21/60  lossD 1.382  lossG 0.706  D(real) +0.01  D(fake) -0.01  [24.7 min]
+epoch  22/60  lossD 1.378  lossG 0.712  D(real) +0.02  D(fake) -0.01  [25.5 min]
+epoch  23/60  lossD 1.375  lossG 0.720  D(real) +0.02  D(fake) -0.02  [26.2 min]
+epoch  24/60  lossD 1.380  lossG 0.712  D(real) +0.01  D(fake) -0.01  [27.0 min]
+epoch  25/60  lossD 1.377  lossG 0.718  D(real) +0.02  D(fake) -0.02  [27.7 min]
+epoch  26/60  lossD 1.376  lossG 0.718  D(real) +0.02  D(fake) -0.02  [28.5 min]
+epoch  27/60  lossD 1.368  lossG 0.735  D(real) +0.04  D(fake) -0.04  [29.2 min]
+epoch  28/60  lossD 1.372  lossG 0.723  D(real) +0.03  D(fake) -0.02  [30.0 min]
+epoch  29/60  lossD 1.365  lossG 0.739  D(real) +0.05  D(fake) -0.04  [30.7 min]
+epoch  30/60  lossD 1.356  lossG 0.751  D(real) +0.06  D(fake) -0.06  [31.5 min]  quick(2000) FIDpool 220.9  FIDblog 0.1863  IS 2.41
+epoch  31/60  lossD 1.353  lossG 0.753  D(real) +0.07  D(fake) -0.06  [32.4 min]
+epoch  32/60  lossD 1.350  lossG 0.758  D(real) +0.07  D(fake) -0.06  [33.2 min]
+epoch  33/60  lossD 1.345  lossG 0.767  D(real) +0.09  D(fake) -0.07  [33.9 min]
+epoch  34/60  lossD 1.341  lossG 0.768  D(real) +0.09  D(fake) -0.08  [34.7 min]
+epoch  35/60  lossD 1.346  lossG 0.756  D(real) +0.08  D(fake) -0.07  [35.4 min]
+epoch  36/60  lossD 1.340  lossG 0.763  D(real) +0.09  D(fake) -0.08  [36.2 min]
+epoch  37/60  lossD 1.333  lossG 0.773  D(real) +0.11  D(fake) -0.09  [36.9 min]
+epoch  38/60  lossD 1.332  lossG 0.773  D(real) +0.11  D(fake) -0.09  [37.7 min]
+epoch  39/60  lossD 1.337  lossG 0.768  D(real) +0.10  D(fake) -0.08  [38.4 min]
+epoch  40/60  lossD 1.336  lossG 0.773  D(real) +0.10  D(fake) -0.08  [39.2 min]  quick(2000) FIDpool 141.5  FIDblog 0.1503  IS 2.93
+epoch  41/60  lossD 1.336  lossG 0.771  D(real) +0.10  D(fake) -0.08  [40.2 min]
+epoch  42/60  lossD 1.330  lossG 0.774  D(real) +0.11  D(fake) -0.09  [40.9 min]
+epoch  43/60  lossD 1.331  lossG 0.774  D(real) +0.11  D(fake) -0.09  [41.7 min]
+epoch  44/60  lossD 1.328  lossG 0.775  D(real) +0.12  D(fake) -0.09  [42.4 min]
+epoch  45/60  lossD 1.332  lossG 0.772  D(real) +0.11  D(fake) -0.09  [43.1 min]
+epoch  46/60  lossD 1.334  lossG 0.767  D(real) +0.10  D(fake) -0.08  [43.9 min]
+epoch  47/60  lossD 1.331  lossG 0.763  D(real) +0.10  D(fake) -0.08  [44.6 min]
+epoch  48/60  lossD 1.334  lossG 0.767  D(real) +0.10  D(fake) -0.08  [45.4 min]
+epoch  49/60  lossD 1.334  lossG 0.769  D(real) +0.10  D(fake) -0.08  [46.1 min]
+epoch  50/60  lossD 1.331  lossG 0.769  D(real) +0.10  D(fake) -0.09  [46.9 min]  quick(2000) FIDpool 110.6  FIDblog 0.1193  IS 3.33
+epoch  51/60  lossD 1.332  lossG 0.768  D(real) +0.10  D(fake) -0.08  [47.9 min]
+epoch  52/60  lossD 1.326  lossG 0.768  D(real) +0.11  D(fake) -0.09  [48.6 min]
+epoch  53/60  lossD 1.326  lossG 0.768  D(real) +0.11  D(fake) -0.09  [49.4 min]
+epoch  54/60  lossD 1.330  lossG 0.769  D(real) +0.11  D(fake) -0.09  [50.1 min]
+epoch  55/60  lossD 1.328  lossG 0.767  D(real) +0.11  D(fake) -0.09  [50.9 min]
+epoch  56/60  lossD 1.331  lossG 0.763  D(real) +0.10  D(fake) -0.08  [51.6 min]
+epoch  57/60  lossD 1.329  lossG 0.763  D(real) +0.11  D(fake) -0.09  [52.4 min]
+epoch  58/60  lossD 1.330  lossG 0.766  D(real) +0.10  D(fake) -0.09  [53.1 min]
+epoch  59/60  lossD 1.327  lossG 0.765  D(real) +0.11  D(fake) -0.09  [53.9 min]
+epoch  60/60  lossD 1.328  lossG 0.764  D(real) +0.11  D(fake) -0.09  [54.6 min]  quick(2000) FIDpool 108.3  FIDblog 0.1075  IS 3.62
+FINAL  FID(pool,2048) 93.38  FID(blog,softmax) 0.10155  IS(fake) 3.665  IS(real) 8.541  (n=5000, fid_patched=True)
+done in 54.8 min; wrote outputs to sweep_gan3/bce_sn_da
